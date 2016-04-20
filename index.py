@@ -3,6 +3,7 @@
 #date: 2013-07-05
 
 import sys
+import os
 import BaseHTTPServer
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 import socket
@@ -58,12 +59,16 @@ if __name__ == '__main__':
         ServerClass  = BaseHTTPServer.HTTPServer
         Protocol     = "HTTP/1.0"
         addr = len(sys.argv) < 2 and "0.0.0.0" or sys.argv[1]
-        port = len(sys.argv) < 3 and 80 or int(sys.argv[2])
+        port = int(
+               os.getenv('PORT0',
+               len(sys.argv) < 3 and 80 or int(sys.argv[2]))
+               )
         HandlerClass.protocol_version = Protocol
         httpd = ServerClass((addr, port), HandlerClass)
         sa = httpd.socket.getsockname()
         print "Serving HTTP on", sa[0], "port", sa[1], "..."
         httpd.serve_forever()
     except:
-        exit()
+        print ("Exiting")
+	exit()
 
