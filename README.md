@@ -27,10 +27,10 @@ $ docker run --rm -it -p 80:80 fernandosanchez/simpleweb:latest
 ```
 
 # Which image is based on?
-The image is based on python:2.7
+The image is based on yeasy/simple-web, which is based on python:2.7
 
 # What has been changed?
-Add the index.py code.
+Add the index.py code. Modify it to have the server listen on port number $PORT0 if that environment variable is defined. This is useful for automatic port assignment with Marathon.
 
 
 # Supported Docker versions
