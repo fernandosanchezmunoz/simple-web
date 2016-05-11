@@ -6,7 +6,7 @@ A simple web server that outputs the IP addresses of the source and destination,
 [simpleweb](https://github.com/fernandosanchezmunoz/simpleweb) is a simple web to show the source and destination IP addresses of the received requests information, written in python.
 
 # How to use this image?
-The docker image is auto built at [https://registry.hub.docker.com/u/fernandosanchez/simple-web/](https://registry.hub.docker.com/u/fernandosanchez/simpleweb/).
+The docker image is auto built at [https://registry.hub.docker.com/u/fernandosanchez/simpleweb/](https://registry.hub.docker.com/u/fernandosanchez/simpleweb/).
 
 ## In Dockerfile
 ```sh
