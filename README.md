@@ -1,4 +1,4 @@
-simple_web
+simpleweb
 ===
 A simple web server that outputs the IP addresses of the source and destination, very useful for testing loadbalancer to show real requests. Based on yeasy/simple-web, this version also checks for the $PORT0 variable and starts the server on that port if it's defined. This is useful for use with Marathon, where the $PORT0 variable is automatically passed on to containers at creation time to ensure unique port assignment.
 
