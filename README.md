@@ -4,16 +4,16 @@ A simple web server that outputs the IP addresses of the source and destination,
 
 # Supported tags and respective Dockerfile links
 
-* [`latest` (latest/Dockerfile)](https://github.com/fernandosanchez/simple-web/blob/master/Dockerfile)
+* [`latest` (latest/Dockerfile)](https://github.com/fernandosanchez/simpleweb/blob/master/Dockerfile)
 
-For more information about this image and its history, please see the relevant manifest file in the [`fernandosanchez/simple-web` GitHub repo](https://github.com/fernandosanchezmunoz/simple-web).
+For more information about this image and its history, please see the relevant manifest file in the [`fernandosanchez/simple-web` GitHub repo](https://github.com/fernandosanchezmunoz/simpleweb).
 
 # What is simple-web?
-[simple-web](https://github.com/fernandosanchezmunoz/simple-web) is a simple web to show the source and destination IP addresses of the received requests information, written in python.
+[simple-web](https://github.com/fernandosanchezmunoz/simpleweb) is a simple web to show the source and destination IP addresses of the received requests information, written in python.
 
 
 # How to use this image?
-The docker image is auto built at [https://registry.hub.docker.com/u/fernandosanchez/simple-web/](https://registry.hub.docker.com/u/fernandosanchez/simple-web/).
+The docker image is auto built at [https://registry.hub.docker.com/u/fernandosanchez/simple-web/](https://registry.hub.docker.com/u/fernandosanchez/simpleweb/).
 
 
 ## In Dockerfile
