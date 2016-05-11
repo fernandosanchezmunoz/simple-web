@@ -6,7 +6,7 @@ A simple web server that outputs the IP addresses of the source and destination,
 
 * [`latest` (latest/Dockerfile)](https://github.com/fernandosanchez/simpleweb/blob/master/Dockerfile)
 
-For more information about this image and its history, please see the relevant manifest file in the [`fernandosanchez/simple-web` GitHub repo](https://github.com/fernandosanchezmunoz/simpleweb).
+For more information about this image and its history, please see the relevant manifest file in the [`fernandosanchez/simpleweb` GitHub repo](https://github.com/fernandosanchezmunoz/simpleweb).
 
 # What is simple-web?
 [simple-web](https://github.com/fernandosanchezmunoz/simpleweb) is a simple web to show the source and destination IP addresses of the received requests information, written in python.
