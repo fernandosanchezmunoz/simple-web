@@ -1,6 +1,6 @@
 simpleweb
 ===
-A simple web server that outputs the IP addresses of the source and destination, useful for load balancing testing. It checks for the $PORT0 variable and starts the server on that port if it's defined. This is useful for deploymen with Marathon.
+A simple web server that outputs the IP addresses of the source and destination, useful for load balancing testing. It checks for the $PORT0 variable and starts the server on that port if it's defined. This is useful for deployment with Marathon.
 
 # What is simpleweb?
 [simpleweb](https://github.com/fernandosanchezmunoz/simpleweb) is a simple web to show the source and destination IP addresses of the received requests information, written in python.
