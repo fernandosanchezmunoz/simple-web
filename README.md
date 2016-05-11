@@ -1,5 +1,8 @@
 simpleweb
 ===
+
+[![](https://imagelayers.io/badge/fernandosanchez/simpleweb:latest.svg)](https://imagelayers.io/?images=fernandosanchez/simpleweb:latest 'Get your own badge on imagelayers.io')
+
 A simple web server that outputs the IP addresses of the source and destination, useful for load balancing testing. It checks for the $PORT0 variable and starts the server on that port if it's defined. This is useful for deployment with Marathon.
 
 Runs on Alpine linux base in order to be lightweight. Uses python 2.7.
