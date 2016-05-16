@@ -15,12 +15,12 @@ The docker image is auto built at [https://registry.hub.docker.com/u/fernandosan
 
 ## In Dockerfile
 ```sh
-FROM fernandosanchez/simpleweb:latest
+FROM fernandosanchez/simpleweb
 ```
 
 ## Local Run
 ```sh
-$ docker run --rm -it -p 80:80 fernandosanchez/simpleweb:latest
+$ docker run --rm -it -p 80:80 fernandosanchez/simpleweb
 ```
 
 # Which image is based on?
