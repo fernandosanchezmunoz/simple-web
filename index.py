@@ -12,6 +12,7 @@ import struct
 import pickle
 from datetime import datetime
 from collections import OrderedDict
+import netifaces
 
 class HandlerClass(SimpleHTTPRequestHandler):
     def get_ip_address(self,ifname):
@@ -30,7 +31,8 @@ class HandlerClass(SimpleHTTPRequestHandler):
             request=OrderedDict()
         time_now = datetime.now()
         ts = time_now.strftime('%Y-%m-%d %H:%M:%S')
-        server = self.get_ip_address('eth0')
+        iface=netifaces.gateways()['default'][netifaces.AF_INET][1]
+        server = self.get_ip_address(iface)
         host=self.address_string()
         addr_pair = (host,server)
         if addr_pair not in request:
